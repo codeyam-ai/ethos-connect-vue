@@ -20,6 +20,8 @@ From the root folder of the project you are working on (*not* this project)
 
 ```bash
 yarn link ethos-connect-vue
+yarn
+yarn dev
 ```
 
 ### To reset local

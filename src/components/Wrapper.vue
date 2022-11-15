@@ -6,8 +6,8 @@ defineProps<{
 
 <template>
   <div>
-    Before slot + msg: {{ msg }}
+    Before slot + msg: {{ msg }}!!!
     <slot></slot>
-    After slot
+    After slot OH MY GOD
   </div>
 </template>
