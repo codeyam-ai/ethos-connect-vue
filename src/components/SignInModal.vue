@@ -5,14 +5,13 @@ const props = defineProps<{
 </script>
 
 <template>
-  <div class="dialog">
+  <h1>
     {{ props.connectMessage }}
-  </div>
+  </h1>
 </template>
 
-<!-- <style scoped>
-.dialog {
-  background-color: blue;
-  padding: 1rem;
+<style scoped>
+h1 {
+  color: red;
 }
-</style> -->
+</style>

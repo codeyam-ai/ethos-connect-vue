@@ -19,6 +19,6 @@ onMounted(() => {
     After slot...
     <br />
     API key{{ $ethosConfigFromVueOptions.apiKey }}
-    <SignInModal connectMessage="{props.connectMessage}" />
+    <SignInModal :connectMessage="props.connectMessage" />
   </div>
 </template>

@@ -9,7 +9,7 @@ declare module 'vue' {
     }
 }
 
-// Used to create a new ColoredText. "options" will be whatever you add later to "app.use(ColoredTextPlugin, options);"
+// Used to create a new ethosConfig. "options" will be whatever you add later to "app.use(EthosConnectPlugin, options);"
 const createEthosConfiguration = (options: EthosConfiguration): EthosConfiguration => {
     return options
 }
