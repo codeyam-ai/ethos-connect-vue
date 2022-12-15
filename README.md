@@ -1,5 +1,9 @@
 # Ethos Connect: Vue Plugin
 
+## Documentation
+
+For full documentation on Ethos Connect please visit [Ethos Connect](https://ethoswallet.xyz/dev). The Vue-specific documentation can be found at [Ethos Connect: Vue](https://docs.ethoswallet.xyz/example-vue-app)
+
 ## Running locally
 
 From the root folder of the project you are working on (*not* this project)
