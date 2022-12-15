@@ -1,6 +1,6 @@
 {
   "name": "ethos-connect-vue",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "main": "dist/index.js",
   "license": "MIT",
   "type": "module",
@@ -8,19 +8,18 @@
     "build": "rollup -c",
     "prepublishOnly": "yarn build"
   },
-  "peerDependencies": {
-    "vue": "^3.2.20"
-  },
-  "dependencies": {
-    "@mysten/sui.js": "^0.16.0"
-  },
   "devDependencies": {
-    "rollup": "^3.3.0",
+    "rollup": "^3.7.3",
     "rollup-plugin-clear": "^2.0.7",
-    "rollup-plugin-css-only": "^4.3.0",
     "rollup-plugin-typescript2": "^0.34.1",
     "rollup-plugin-vue": "^6.0.0",
-    "typescript": "^4.8.4",
+    "typescript": "^4.9.4",
     "vue": "^3.2.45"
+  },
+  "dependencies": {
+    "ethos-connect": "^0.0.55",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "veaury": "^2.3.11"
   }
 }

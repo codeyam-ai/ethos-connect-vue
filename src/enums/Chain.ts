@@ -1,3 +1,3 @@
 export enum Chain {
-  Sui = 'sui',
+    Sui = 'sui',
 }

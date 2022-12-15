@@ -1,24 +1,13 @@
 <script setup lang="ts">
-import SignInModal from "./SignInModal.vue";
-import { onMounted } from "vue";
-
-console.log("in setup script for Wrapper");
-
-const props = defineProps<{
-  connectMessage?: string;
-}>();
-
-onMounted(() => {
-  console.log("wrapper mounted");
-});
+import EthosConnectWrapper from "./EthosConnectWrapper.vue";
+import EthosConnectBase from "./EthosConnectBase.vue";
 </script>
 
 <template>
-  <div>
-    <slot></slot>
-    After slot...
-    <br />
-    API key{{ $ethosConfigFromVueOptions.apiKey }}
-    <SignInModal :connectMessage="props.connectMessage" />
-  </div>
+  <EthosConnectWrapper>
+    <EthosConnectBase>
+      <slot></slot>
+    </EthosConnectBase>
+  </EthosConnectWrapper>
 </template>
+
