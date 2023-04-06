@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "ethos-connect": "^0.0.127",
+    "ethos-connect-vue": "^0.0.35",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "veaury": "^2.3.11"
