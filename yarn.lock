@@ -945,6 +945,25 @@ ethos-connect@^0.0.127:
     react-google-recaptcha "^2.1.0"
     store2 "^2.14.2"
 
+ethos-connect@^0.0.128:
+  version "0.0.128"
+  resolved "https://registry.yarnpkg.com/ethos-connect/-/ethos-connect-0.0.128.tgz#c015f932b57fa262691b2da96be9a84631a85496"
+  integrity sha512-qR3zzeAMEg5ISbcyZaMX8tAwwSq/+NGueyX7jeWICINdqluO8h/0rCA/fpnswO5QH+7LQydfL6eQReP8GRyrJg==
+  dependencies:
+    "@mysten/sui.js" "^0.31.0"
+    "@mysten/wallet-adapter-all-wallets" "^0.5.1"
+    "@mysten/wallet-adapter-base" "^0.7.1"
+    "@mysten/wallet-kit-core" "^0.4.1"
+    "@superstate/react" "^0.1.0"
+    bignumber.js "^9.1.1"
+    cross-fetch "^3.1.5"
+    encoding "^0.1.13"
+    eslint "^8.36.0"
+    lodash "^4.17.21"
+    qrcode "^1.5.1"
+    react-google-recaptcha "^2.1.0"
+    store2 "^2.14.2"
+
 eventemitter3@^4.0.7:
   version "4.0.7"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
