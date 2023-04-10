@@ -1,6 +1,6 @@
 {
   "name": "ethos-connect-vue",
-  "version": "0.0.36",
+  "version": "0.0.37",
   "main": "dist/index.js",
   "license": "MIT",
   "type": "module",
@@ -17,7 +17,7 @@
     "vue": "^3.2.45"
   },
   "dependencies": {
-    "ethos-connect": "^0.0.128",
+    "ethos-connect": "^0.0.129",
     "ethos-connect-vue": "^0.0.35",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
